@@ -1,0 +1,38 @@
+.screen{
+  display: flex;
+}
+.barvalues{
+  width:30px;
+  display:inline;
+  margin: 0 5px;
+  /* position: relative; */
+  /* margin-top: 90%; */
+  background-color: orange;
+} 
+.barContainer{
+  position: absolute;
+  /* float: right; */
+  display: flex;
+  height: 525px;
+  /* padding-top: 20px; */
+  align-items:flex-end ;
+  text-align: center;
+  margin-left:200px;
+}
+
+
+.btnList{
+  display: block;
+  /* float:left; */
+  margin-top: 100px;
+  width:150px;
+  margin-left:10px;
+  /* margin:10px 0 10px 0; */
+
+}
+button{
+  margin: 10px auto 10px auto ;
+  width:100px;
+  padding: 5px;
+  background-color: yellow;
+}
